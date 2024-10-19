@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(20, 20, 20);
+}
+p, button {
+  color: white;
+}
+.group {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.container {
+  width: 300px;
+  height: 550px;
+  background-color: rgb(29, 27, 27);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+.container-image img {
+  border-radius: 100px;
+  width: 85px;
+}
+.profile-name {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.location {
+  color: rgba(183, 241, 67, 0.822);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+.occupation {
+  margin-top: 25px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.btn-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.btn-container button {
+  font-size: 14px;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(49, 49, 49);
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: background-color 0.25s;
+}
+.btn-container button:hover {
+  background-color: rgba(183, 241, 67, 0.822);
+  cursor: pointer;
+
+}
